@@ -10,7 +10,7 @@ const pool = new Pool({
 pool.connect()
 
 const cohortName = process.argv[2];
-const cohortLimit = process.argv[3];
+
 // const [, , cohortName, cohortLimit] = process.argv
 // console.log(cohortName, '--- cohortName', cohortLimit, ' --- cohortLimit' )
 
